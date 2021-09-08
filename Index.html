@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>THE PROJECT</title>
+<style>
+/* ------- Navigation bar ------ */
+#navbtn{
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbtn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  float: left;
+  padding: 8px 14px;
+  color: white;
+  margin: 5px  10px;
+
+}
+
+#navbtn a:hover {
+  background-color: floralwhite;
+  color: red;
+}
+
+#navbtn a:active{
+  background-color: red;
+  color: white;
+  
+}
+
+/* ------------ Search Section ------------- */
+.search-bar{
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+
+input{
+  padding: 4px;
+  font-size: 15px;
+  
+}
+
+input.search-box{
+  width: 350px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: floralwhite;
+  color: blue;
+  font-weight: bolder;
+  padding-left: 8px;
+
+}
+
+input#search-btn {
+  border: 2px solid red;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input#search-btn:hover {
+  border: 2px solid white;
+  color: red;
+  background-color: white;
+
+}
+
+h1{
+    color: deeppink;
+    animation-name: Sumayyah;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes Sumayyah{
+    0%{color: deeppink;}
+    50%{color: indigo;}
+    100%{color: yellow;}
+}
+@keyframes Sumayyah{
+  0%{color: deeppink;} 
+  50%{color: indigo;}
+  100%{color:yellow}
+}
+</style>
+</head>
+<body>
+<h1>SUMAYYAH'S BLOG</h1>
+<div id="navbtn">
+      
+  <a href="Index.html"> Home </a>
+
+  <a href="news.html"> News </a>
+
+  <a href="about us.html"> About Us </a>
+
+  <a href="contact us.html"> Contact Us </a>
+  
+  <div class="search-bar">
+    <input class="search-box" type="search" placeholder="Search Here" />
+
+    <input id="search-btn" type="button" value="Search" />
+  </div>
+
+</div>
+<img src="images/Zakat/images (18).jpg" width="100%">
+<img src="images/Zakat/images (19).jpg">
+<img src="images/Zakat/images (20).jpg">
+<img src="images/Zakat/images (21).jpg">
+<video src="videos/videoplayback (3).mp4" controls></video>
+
+</body>
+</html>
